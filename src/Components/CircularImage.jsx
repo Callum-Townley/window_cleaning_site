@@ -1,6 +1,6 @@
 function CircularImage({src, children}) {
     return ( <div className="flex justify-center items-center">
-  <div className="relative w-80 h-80 rounded-full overflow-hidden">
+  <div className="relative w-55 h-55 rounded-full overflow-hidden">
     <img 
       src={src} 
       alt={typeof children === "string" ? children : "image"}

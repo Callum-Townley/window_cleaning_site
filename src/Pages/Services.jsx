@@ -2,8 +2,8 @@ import CircularImage from "../Components/CircularImage";
 
 function Services() {
   return (
-    <div className="bg-[#386389] h-screen flex  justify-center">
-        <div className=" bg-opacity-80 p-10 rounded-lg text-center w-screen max-w-[80%] mt-[5%] mx-4">
+    <div className="bg-[#386389] min-h-screen h-fit flex  justify-center">
+        <div className=" bg-opacity-80 p-10 rounded-lg text-center w-screen max-w-[80%] mt-[5%] mx-4 flex flex-col">
         <h1 className="text-[clamp(2rem,3.5vw,4rem)] font-poppins font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white from-70% to-gray-400 text-center pt-20">OUR SERVICES</h1>
         <div className="flex justify-between flex-row  px-4">
             <CircularImage src="/src/assets/conservatory_cleaning.jpg">Conservatories</CircularImage>
