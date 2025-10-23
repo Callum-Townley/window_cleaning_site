@@ -9,6 +9,8 @@ import Services from './Pages/Services.jsx'
 import About from './Pages/about.jsx'
 import Coverage from './Pages/coverage.jsx'
 import Contact from './Pages/contact.jsx'
+import Footer from './Components/Footer.jsx'
+import MobileContact from './Components/MobileContact.jsx'
 
 function App() {
   
@@ -18,6 +20,9 @@ function App() {
       <Navbar/>
       <div id="home" className="overflow-x-visible ">
         <Home/>
+      </div>
+      <div className=" flex sm:hidden">
+        <MobileContact/>
       </div>
       <div id="services" className="overflow-x-visible ">
         <Services/>
@@ -31,6 +36,7 @@ function App() {
       <div id="contact" className="overflow-x-visible ">
         <Contact/>
       </div>
+      <Footer/>
     </div>
   )
 }
