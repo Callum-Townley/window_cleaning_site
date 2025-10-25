@@ -3,7 +3,7 @@ function MobileContact(){
         <div>
           <div className="flex flex-row items-center">
                  <img
-                    src='/src/assets/Mail.svg'
+                    src='/assets/Mail.svg'
                     alt=""
                     className=" h-[40px] w-[40px]"
                   />
@@ -17,7 +17,7 @@ function MobileContact(){
 
              <div className="flex flex-row items-center">
                  <img
-                    src='/src/assets/Phone.svg'
+                    src='/assets/Phone.svg'
                     alt=""
                     className=" h-[40px] w-[40px]"
                   />

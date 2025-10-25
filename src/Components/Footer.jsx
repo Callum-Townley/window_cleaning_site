@@ -5,7 +5,7 @@ function Footer(){
             <p className="mt-3 ml-2 text-white font-poppins font-semibold text-[0.6rem] sm:text-[1rem]  md:text-lg 2xl:text-xl text-nowrap"> Call or email us today to get a quote:</p>
             <div className="flex flex-row items-center">
                  <img
-                    src='/src/assets/Mail.svg'
+                    src='/assets/Mail.svg'
                     alt=""
                     className=" h-[30px] w-[30px] sm:h-[50px] sm:w-[50px]"
                   />
@@ -18,7 +18,7 @@ function Footer(){
             </div>
             <div className="flex flex-row items-center">
                  <img
-                    src='/src/assets/Phone.svg'
+                    src='/assets/Phone.svg'
                     alt=""
                     className="h-[30px] w-[30px] sm:h-[50px] sm:w-[50px]"
                   />

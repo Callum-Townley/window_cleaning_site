@@ -68,10 +68,10 @@ function Contact(){
     return ( <div className="bg-[#0A2840] min-h-screen h-fit flex flex-col  justify-center items-center relative">
         <form className="flex flex-col justify-center items-center" onSubmit={handleSubmit}>
             <div className="flex justify-evenly w-full items-center pt-20 max-w-[1920px]">
-             <ContactCircle src={'/src/assets/Mail.svg'}>Stevenollerenshaw@gmail.com</ContactCircle>
+             <ContactCircle src={'/assets/Mail.svg'}>Stevenollerenshaw@gmail.com</ContactCircle>
                         {/*name and email text boxes*/}
                         
-                         <div className="flex flex-col items-center w-full max-w-[70%] md:max-w-[40%]  ">
+                         <div className="flex flex-col items-center w-full sm:max-w-[100%] md:max-w-[70%] md:max-w-[40%]  ">
                              <h1 className="text-[clamp(2rem,3.5vw,4rem)] font-poppins font-extrabold mb-8 bg-clip-text text-transparent bg-gradient-to-b from-white from-70% to-gray-400 text-center">CONTACT US</h1>
                              
                             <div className="w-full mb-4">
@@ -101,10 +101,10 @@ function Contact(){
                                 />
                             </div>
                          </div>
-            <ContactCircle src={'/src/assets/Phone.svg'} style={{fontSize:"1.5rem"}}>07787561232</ContactCircle>
+            <ContactCircle src={'/assets/Phone.svg'} style={{fontSize:"1.5rem"}}>07787561232</ContactCircle>
               {/*detail text area*/}
             </div>
-                        <div className="w-[70%] mb-10 mt-10 max-w-[1600px]">
+                        <div className="w-[100%] mb-10 mt-10 max-w-[1600px]">
                             <label htmlFor="message" className="block text-left text-white text-xl 2xl:text-2xl font-poppins mb-1 pl-1">Details:</label>
                             <textarea
                                 name="message"

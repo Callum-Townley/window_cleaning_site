@@ -3,11 +3,11 @@ function Coverage(){
     return (<>
     
 
-     <div className="bg-[url('/src/assets/map.png')] min-h-screen h-fit w-full flex  justify-center relative">
+     <div className="bg-[url('/assets/map.png')] min-h-screen h-fit w-full flex  justify-center relative">
      <div className="absolute inset-0 bg-[#00172A]/70"></div>
         <div className=" z-1 absolute top-0  left-0 w-full h-[70%]">
   <img
-    src="/src/assets/about_us_wave.svg"
+    src="/assets/about_us_wave.svg"
     alt=""
     className="w-[100%] h-full object-cover -scale-y-100"
   />
@@ -15,7 +15,7 @@ function Coverage(){
 
   <div className=" z-0 absolute bottom-0  left-0 w-full h-[70%]">
   <img
-    src="/src/assets/coverage_wave.svg"
+    src="/assets/coverage_wave.svg"
     alt=""
     className="w-[100%] h-full object-cover"
   />
