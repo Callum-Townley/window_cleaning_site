@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <div id="home" className="overflow-x-visible ">
+      <div id="home" className="h-[65vh] md:h-auto overflow-x-visible ">
         <Home/>
       </div>
       <div className=" flex sm:hidden">

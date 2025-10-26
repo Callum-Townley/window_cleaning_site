@@ -33,7 +33,7 @@ function Navbar() {
         onClick={() => setIsOpen(!isOpen)}
         className=" h-5 w-5 md:hidden text-white focus:outline-none justify-self-end"
       >
-        {isOpen ? <img src={"/src/assets/X.svg"} className="h-10 w-10" /> : <img src={"/src/assets/menu.svg"} className="h-10 w-10" />}
+        {isOpen ? <img src={"/assets/X.svg"} className="h-10 w-10" /> : <img src={"/assets/menu.svg"} className="h-10 w-10" />}
       </button>
       {/*mobile menu*/}
       {isOpen && (
